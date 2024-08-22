@@ -86,7 +86,6 @@ ORDER BY reviews_genre.author;
 -- 105 authors out of 219 write the majority of their reviews in one genre
 
 
-
 -- Question 8: Are some authors no longer active?
 SELECT author, MAX(pub_year) FROM reviews
 GROUP BY author
