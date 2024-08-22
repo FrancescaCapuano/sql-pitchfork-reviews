@@ -62,7 +62,7 @@ SELECT author, COUNT(*) FROM reviews_genre
 GROUP BY author
 HAVING COUNT(*) > 10;
 
--- how many are thre?
+-- how many are there?
 SELECT COUNT(*) FROM authors_with_many_reviews;
 
 -- order authors by average review score
